@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="gb2312" />
+    <meta name="description" content="" />
+    <meta name="keywords" value="" />
+    <title>Nikolay Dyankov Design - Web Design, Front-End Development, WordPress Development
+    </title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+    <script type='text/javascript' src='js/jquery.min.js'></script>
+    <link rel="stylesheet" href="css/flipper.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/demopage.css" type="text/css" />
+</head>
+
+<body>
+    <div class="pagewrap">
+        </header>
+        <!-- SETTINGS PANEL -->
+        <div class="demo-box-wrap">
+            <!-- LIVE DEMO -->
+            <div class="demo-box">
+                <div id="myflipper">
+                    <div class="flipper-page">
+                        <div class="flipper-page-padding-wrap">
+                            <p class="headline first">
+                                Flick to turn the page and see what Flipper can do.</p>
+                        </div>
+                    </div>
+                    <div class="flipper-page">
+                        <div class="flipper-page-padding-wrap">
+                            <p class="left headline">
+                                With Flipper you can turn any piece of content into a beautiful and stylish book-like
+                                widget. It's light, it's fast, it's cool and your mobile users will love you for
+                                it.<br />
+                                <br />
+                                <a href="http://www.youtube.com/watch?v=AZ-fg1XtSBw">Watch the video!</a></p>
+                            <p class="right headline">
+                                Photos, image galleries, blogs, news - it all looks awesome! Flick again to see
+                                some examples.</p>
+                        </div>
+                    </div>
+                    <div class="flipper-page">
+                        <div class="flipper-page-padding-wrap">
+                            <h2>
+                                How about some text?</h2>
+                            <p class="mag">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                irure dolor.<br />
+                                <br />
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                architecto beatae vitae dicta sunt explicabo.
+                            </p>
+                            <p class="headline" style="margin-top: 40px;">
+                                It feels just like a magazine.</p>
+                        </div>
+                    </div>
+                    <div class="flipper-page no-padding">
+                        <img src="images/chairs.jpg" class="fullsize">
+                    </div>
+                    <div class="flipper-page no-padding">
+                        <img src="images/clothes.jpg" class="fullsize">
+                    </div>
+                    <div class="flipper-page no-padding">
+                        <img src="images/bridge.jpg" class="fullsize">
+                    </div>
+                    <div class="flipper-page">
+                        <p class="headline first">
+                            Flicking through photos feels just like in an album.
+                            <br />
+                            Thank you for checking out Flipper.</p>
+                    </div>
+                    <div class="flipper-page">
+                        <img src="images/flipper.png">
+                    </div>
+                </div>
+            <script src="js/flipper.min.js"> </script>
+
+                <script src="js/site.js"></script>
+
+                <script>
+                    (function ($, undefined) {
+                        $(document).ready(function () {
+                            $('#myflipper').flipper({
+                                'width': 700,
+                                'height': 400,
+                                "arrows": true,
+                                pager: true,
+                                'imagesPath': 'images/'
+                            });
+                        });
+                    }(jQuery));
+                </script>
+
+            </div>
+        
+        </div>
+    </div>
+
+</body>
+
+</html>
